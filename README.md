@@ -1,2 +1,3 @@
-# Store-Api
- A store API build using nodejs and express
+#Store API
+
+This is a Store API build using Node js, Express and Mongoose
