@@ -1,5 +1,5 @@
 # Store API
-This is a Store API build using Node js, Express and Mongoose
+This is a Store API build using Node js, Express and Mongoose. It allows to access the database using using query parameters.
 ### Getting started
 #### Project setup
 1. Download and Extract the zip file, Open in Vs code or any editor
