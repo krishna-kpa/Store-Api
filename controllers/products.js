@@ -11,7 +11,7 @@ const getAllProducts  = async (req,res)=>{
         queryObject.featured = featured=='true'?true:false;
     }
     if(company){
-        queryObject.company = company
+        queryObject.company = {$regex:company, $options:"i"}
     }
     if(name){
         queryObject.name = {$regex:name, $options:"i"}
@@ -29,7 +29,7 @@ const getAllProducts  = async (req,res)=>{
             '<=':'$lte'
         }
 
-        const regex = /\b(>|>=|=|<|<=)\b/g
+        const resgex = /\b(>|>=|=|<|<=)\b/g
         let filters = numericFilter.replace(
             regex,
             (match)=>'-'+operatorMap[match]+'-'
