@@ -12,7 +12,7 @@ This is a Store API build using Node js, Express and Mongoose
 1. http://localhost:3000/api/v1/products?queries
 2. http://localhost:3000/api/v1/products/static (For refference)
 ### API query options
-
+![image1](https://github.com/krishna-kpa/Store-Api/blob/main/sample/query.png)
 
 #### 1. Query name
 -- for showing result with specific names
