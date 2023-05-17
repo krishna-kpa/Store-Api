@@ -17,9 +17,9 @@ This is a Store API build using Node js, Express and Mongoose
 ### Queries ({{URL}} = http://localhost:3000/api/v1/ -- setting global variable in postman)
 
 #### 1. name
--- for showing result with specific names
-Eg: {{URL}}/products?name=a 
-returns documents with 'a' containing in its name field
+-- for showing result with specific names <br>
+Eg: {{URL}}/products?name=a <br>
+returns documents with 'a' containing in its name field <br>
 
 #### 2. featured
 -- for showing result with featured or not
