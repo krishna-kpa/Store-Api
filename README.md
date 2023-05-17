@@ -16,7 +16,6 @@ This is a Store API build using Node js, Express and Mongoose. It allows to acce
 ![image1](https://github.com/krishna-kpa/Store-Api/blob/main/sample/query.png)
 
 ### Queries 
-##### ({{URL}} = http://localhost:3000/api/v1/ -- setting global variable in postman)
 
 #### 1. name
 -- for showing result with specific names <br>
@@ -57,7 +56,7 @@ This is a Store API build using Node js, Express and Mongoose. It allows to acce
 -- for showing result with numeric filters <br>
 -- Eg: {{URL}}/products?numericFilters=price>31,rating=4.5 <br>
 -- returns documents with price greater than 31 and rating equal to 4.5 <br>
-
+###### {{URL}} = http://localhost:3000/api/v1/ -- set as global variable in postman
 ##### Combination of these queries can also done
 -- Eg: {{URL}}/products?name=a&featured=true&company=a&sort=-price,name&fields=name,price,rating&page=2&numericFilters=price>31,rating=4.5&limit=4 <br>
 
