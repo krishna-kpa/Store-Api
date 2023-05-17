@@ -10,7 +10,7 @@ This is a Store API build using Node js, Express and Mongoose. It allows to acce
 
 ### Routes Available
 1. http://localhost:3000/api/v1/products?queries
-2. http://localhost:3000/api/v1/products/static (For refference)
+2. http://localhost:3000/api/v1/products/static (For reference)
 ### API query options
 ![image1](https://github.com/krishna-kpa/Store-Api/blob/main/sample/query.png)
 
