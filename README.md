@@ -15,7 +15,8 @@ This is a Store API build using Node js, Express and Mongoose. It allows to acce
 ### API query options
 ![image1](https://github.com/krishna-kpa/Store-Api/blob/main/sample/query.png)
 
-### Queries ({{URL}} = http://localhost:3000/api/v1/ -- setting global variable in postman)
+### Queries 
+##### ({{URL}} = http://localhost:3000/api/v1/ -- setting global variable in postman)
 
 #### 1. name
 -- for showing result with specific names <br>
